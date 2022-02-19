@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+<head>   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>시맨틱 요소 - 레이아웃</title>
-  <!-- 폰트 도헌체 -->
+    <!-- 폰트 2 - 배달의 민족 - 도현체 -->
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
-
+    
     <style>
         * { box-sizing: border-box; margin: 0, padding }
-    
-        header { 
 
+        body {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+    
+        header {
+            background-color: lightgray;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 20px;
         }
 
-        nav { width: 20%;
+        nav {
+            float: left;
+            width: 20%;
             height: 300px;
-            background-color: #339993;
-            padding: auto;
+            background-color: #339999;
+            padding: 20px;
         }
 
         section::after {
             content: '';
-            display: ;
+            display: block;
+            clear: both;
+        }
+
+        footer {
+            background-color: #ffcc00;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
         }
 
         /* 반응형 적용 - 가로사이즈 600px 이하 */
@@ -33,25 +51,41 @@
            width: 100%;
            height: auto;
        }    
-}
+    }
 
-    
+
     </style>
-
-    <article>
-        <h1>sbs아카데미</h1>
-        <p>
-            내 했던 책상을 이 있습니다. 쉬이 강아지, 경, 이름자 가슴속에 이름과, 까닭입니다. 보고, 별이 어머니, 오는 이름을 가을로 별에도 책상을 한 있습니다.
-        </p>
-        <p>
-            내 했던 책상을 이 있습니다. 쉬이 강아지, 경, 이름자 가슴속에 이름과, 까닭입니다. 보고, 별이 어머니, 오는 이름을 가을로 별에도 책상을 한 있습니다.
-        </p>
-    </article>
 </head>
 <body>
-    <h1>시맨틱태그를 이용한 레이아웃</h1>
+    <h1>semantic 태그를 이용한 레이아웃</h1>
     <header>
-        <h2>header</h2>
+        <h2>HEADER</h2>
     </header>
+
+    <section>
+        <nav>
+            <ul>
+                <!-- 한 줄 복사 : alt + shift + ↓ -->
+                <li><a href="#">menu 001</a></li>
+                <li><a href="#">menu 002</a></li>
+                <li><a href="#">menu 003</a></li>
+                <li><a href="#">menu 004</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>SBS 아카데미</h1>
+            <p>
+                내 했던 책상을 이 있습니다. 쉬이 강아지, 경, 이름자 가슴속에 이름과, 까닭입니다. 보고, 별이 어머니, 오는 이름을 가을로 별에도 책상을 한 있습니다.
+            </p>
+            <p>
+                내 했던 책상을 이 있습니다. 쉬이 강아지, 경, 이름자 가슴속에 이름과, 까닭입니다. 보고, 별이 어머니, 오는 이름을 가을로 별에도 책상을 한 있습니다.
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <h2>FOOTER</h2>
+    </footer>
 </body>
 </html>
