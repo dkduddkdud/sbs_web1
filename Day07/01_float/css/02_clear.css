@@ -15,5 +15,9 @@ h1 { text-align: center; }
 }
 
 .left { float: left; background-color: pink; }
-.right { float: right; background-color: pink; }
-.left { float: left; background-color: pink; }
+.right { float: right; background-color: lightblue; }
+.next { float: left; background-color: cornflowerblue; }
+
+.clear-left { clear: left; }
+.clear-right { clear: right; }
+.clear-both { clear: both; }

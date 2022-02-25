@@ -7,8 +7,8 @@
 */
 table.first {
     width: 100%;
-    border-collapse: collapse;   /* 이중실선제거*/
-    border-radius: 8px;          /* 테두리 굴곡 */
+    border-collapse: collapse;   /* 이중실선제거 */
+    border-radius: 8px;          /* 테두리 곡률 */
     overflow: hidden;
     box-shadow: 5px 5px 10px #aaa;
     /* 그림자 : x축 y축 블러 색상 */
@@ -151,4 +151,5 @@ section.part2 div:nth-child(2) {
 section.part2 div:nth-last-child(2) {
     background-color: mediumslateblue;
 }
-/* child는 같은 부모요소에 다른 태그를 구분하지 못한다. (div 태그 구분 못함 h2 부터 적용 */
+/* child는 같은 부모요소에 다른 태그를 구분하지 못한다. 
+(div 태그 구분 못함 h2 부터 적용 */

@@ -13,7 +13,7 @@ header {
 
 header h1 {
     float: left;
-    font-size: 1.8rem; /* */
+    font-size: 1.8rem; /* rem : html(루트) 요소에 대한 배율로 적용 */
 }
 
 header ul { float: right;}

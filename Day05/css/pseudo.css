@@ -35,14 +35,14 @@ section em {
 }
 
 /*  :before
-    요소가 시작되기 전 (기억)*/
+    요소가 시작되기 전 (기억) */
 section em::before {
     content: "\""; 
     padding-right: 0.5em;
 }
 
 /* :after
-    요소가 끝난 다음 (기억)*/
+    요소가 끝난 다음 (기억) */
 section em::after {
     content: "\"";
     padding-left: 0.5em;

@@ -4,7 +4,7 @@
     width: 1200px;
     height: auto;
     border: 5px dashed orange;
-    margin: 100px auto;
+    margin: auto;
     text-align: center;
 }
 
@@ -17,6 +17,6 @@
 }
 
 .box1 { padding: 20px 40px 80px 100px;}
-.box1 { padding: 20px 40px 80px;}
-.box1 { padding: 20px 40px;}
-.box1 { padding: 20px;}
+.box2 { padding: 20px 40px 80px;}
+.box3 { padding: 20px 40px;}
+.box4 { padding: 20px;}
