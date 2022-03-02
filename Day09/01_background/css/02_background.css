@@ -89,3 +89,48 @@
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+
+
+body {
+    background-image: url(../aloha.png);
+    background-size: 200px 190px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mint { background-color: mediumaquamarine; }
+
+/* 이미지를 2개이상 적용 (,) 기준으로 속성값을 사용 */
+/* 
+   background-size
+   px      : ( width hegith )
+   cover   : 이미지를 확대/축소해서 박스 가로 또는 세로 크기에 딱 맞게 채우는 속성값
+
+   contain : 이미지 전체가 보이도록 조정하는 속성값 ( 가로 / 세로 비율 유지 )
+*/
+
+.classroom {
+    background-image: url(../img/aloha.png), url(../img/classroom.jpg);
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+}
+
+/* 
+   background 단축속성
+   (순서)
+   background-color
+   background-image
+   background-repeat
+   background-attachment 
+   background-position
+   *순서가 유지되면, 누락되어도 문제되지 않음 
+*/
+
+.short {
+    /* image, repeat, attachment, position */
+    background: url(../img/aloha.png) no-repeat scroll left bottom,
+                url(../img/classroom.jpg) no-repeat scroll center center;
+    background-size: contain, cover;
+}
