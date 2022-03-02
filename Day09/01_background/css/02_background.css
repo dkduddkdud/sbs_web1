@@ -1,0 +1,91 @@
+
+.container { text-align: center; }
+
+.inner {
+    width: 70vw;
+    min-height: 70vw;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+/* background-image */
+.back1 {
+    background-image: url(../aloha.png);
+}
+
+/* background-size, background-repeat */
+.back2 {
+    min-height: 190px;
+    background-image: url(../aloha.png);
+    background-size: 200px 190px;  /* 가로 세로 */
+    background-repeat: repeat-x;   /* x축으로만 이미지 */
+}
+
+.back3 {
+    min-height: 600px;
+    background-image: url(../aloha.png);
+    background-size: 200px;
+    background-repeat: repeat-y;  /* y축으로만 이미지 */
+}
+
+.back4 {
+    background-image: url(../aloha.png);
+    background-repeat: no-repeat; 
+}
+/* background-position */
+.left {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.center {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.top-left {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.top-right {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.bottom-left {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.bottom-right {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.top-center {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.center-center {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bottom-center {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
