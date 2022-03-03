@@ -2,13 +2,14 @@
 * { margin: 0; padding: 0; text-align: center; }
 
 .box {
-    width: 600;
-    height: 600;
-    margin: 50 auto;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto-+-09765
 }
 
 .simple {
-    background: conic-gradient(red, yellow, green, blue, black);
+    background: 
+        conic-gradient(red, yellow, green, blue, black);
 }
 
 .dagree {
@@ -26,4 +27,11 @@
 
 .pie2 { 
     background: 
-    conic-gradient(); }
+    conic-gradient( red, yellow, green, blue, black ); 
+    border-radius: 50%;
+}
+
+.position {
+    background: 
+        conic-gradient(at 70% 75%, red, yellow, green);
+}
