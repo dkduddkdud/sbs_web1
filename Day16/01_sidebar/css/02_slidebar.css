@@ -41,7 +41,7 @@
 }
 
 /* 체크박스 출력 X */
-input[name='caterory'] { display: none; }
+input[name='category'] { display: none; }
 
 /* 
    user-select
